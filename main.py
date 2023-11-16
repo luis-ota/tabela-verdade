@@ -76,7 +76,7 @@ def tabela():
         print('\nOperações:')
         for op, count in operacoes.items():
             print(f'{op}: {count}')
-        print('Tabela Verdade:')
+        print('\nTabela Verdade:')
         print(table)
 
         # Pergunta ao usuário se deseja continuar ou encerrar o programa
