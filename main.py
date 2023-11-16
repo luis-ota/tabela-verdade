@@ -66,7 +66,7 @@ def tabela():
         except:
             # Trata exceção se a fórmula for inválida
             print('Você digitou uma fórmula inválida, tente novamente.\n')
-            continuar = input('\Deseja continuar? (S/N): ')
+            continuar = input('\nDeseja continuar? (S/N): ')
             if continuar.lower() != 's':
                 break
             continue
