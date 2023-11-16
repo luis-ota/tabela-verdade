@@ -54,7 +54,7 @@ def tabela():
         for i in operacao.split(' '):
             if i == '=':
                 operacoes['bicondicional'] += 1
-            elif i == '=>':
+            elif i == '=>' or i == 'implies':
                 operacoes['implicação'] += 1
 
         # Remove duplicatas e ordena as variáveis
