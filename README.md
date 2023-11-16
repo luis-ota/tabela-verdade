@@ -22,6 +22,6 @@ Bem-vindo à Calculadora Lógica! Este é um programa simples em Python que perm
 
 ## Dependências
 
-- [ttg](https://github.com/chrisvoncsefalvay/ttg) - Biblioteca para gerar tabelas verdade.
-- [tabulate](https://pypi.org/project/tabulate/) - Biblioteca para formatar a tabela de exemplos.
+- [truth-table-generator]([https://github.com/chrisvoncsefalvay/ttg](https://pypi.org/project/truth-table-generator/)) - Biblioteca para gerar tabelas verdade.
+- tabulate - Biblioteca para formatar a tabela de exemplos.
 
