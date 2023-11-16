@@ -4,7 +4,7 @@ Bem-vindo à Calculadora Lógica! Este é um programa simples em Python que perm
 
 ## Como Usar
 
-1. Execute o programa `calculadora_logica.py`.
+1. Execute o programa `main.py`.
 2. Digite a fórmula lógica desejada quando solicitado.
 3. O programa exibirá as variáveis, a contagem de operações e a tabela verdade correspondente.
 4. Você pode escolher continuar inserindo novas fórmulas ou encerrar o programa.
