@@ -31,7 +31,8 @@ def tabela():
             'bicondicional': 0
         }
 
-        # Adiciona espaços em branco ao redor dos operadores para garantir uma divisão adequada
+        # Adiciona espaços em branco ao redor dos operadores
+        # para garantir uma divisão adequada
         operacao = operacao.replace('(', ' ( ').replace(')', ' ) ')
 
         for i in operacao.split():
@@ -68,9 +69,8 @@ def tabela():
         letras = sorted(set(letras))
 
         try:
-            table = str(ttg.Truths(letras,
-                                   [operacao.lower()])).replace('1',
-                                                        'V').replace('0', 'F')
+            table = str(ttg.Truths(letras, [operacao.lower()])).replace(
+                '1', 'V').replace('0', 'F')
         except:
             print('Você digitou uma fórmula inválida, tente novamente.\n')
             continuar = input('\nDeseja continuar? (S/N): ')
