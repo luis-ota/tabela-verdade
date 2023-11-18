@@ -1,3 +1,7 @@
 teste.py
 venv
 .idea
+.pythonlibs/
+.replit
+poetry.lock
+pyproject.toml
