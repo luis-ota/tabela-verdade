@@ -54,9 +54,9 @@ def tabela():
                     operacoes['nand'] += 1
                 elif i.lower() == 'nor':
                     operacoes['nor'] += 1
-                elif i[0] in ['-', '~']:
+                elif i[0] in ['-', '~'] or i.lower() == 'not':
                     operacoes['not'] += 1
-                elif i == '=>':
+                elif i == '=>' or i == 'implies':
                     operacoes['implicação'] += 1
                 elif i == '!=':
                     operacoes['xor'] += 1
@@ -69,7 +69,7 @@ def tabela():
 
         try:
             table = str(ttg.Truths(letras,
-                                   [operacao])).replace('1',
+                                   [operacao.lower()])).replace('1',
                                                         'V').replace('0', 'F')
         except:
             print('Você digitou uma fórmula inválida, tente novamente.\n')
